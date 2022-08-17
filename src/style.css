@@ -2,8 +2,9 @@ body {
   font-family: Arial, sans-serif;
 }
 h1 {
-  color: #878787;
-  font-size: 24px;
+  color: #f36b47;
+  font-size: 34px;
+  margin: 20px 20px 0 0;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
@@ -57,7 +58,7 @@ li:first-letter {
   text-decoration: none;
 }
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: #000;
   cursor: default;
 }
 .weather-temperature .active:hover {
@@ -77,4 +78,17 @@ li:first-letter {
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
+}
+.open-source {
+  text-decoration: none;
+  color: #f36b47;
+}
+.btn {
+  background: #f36b47;
+  border: 1px solid #c1593f;
+}
+.btn:hover {
+  color: #f36b47;
+  background: #ffff;
+  border: 1px solid #c1593f;
 }
