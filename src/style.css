@@ -1,5 +1,11 @@
 body {
   font-family: Arial, sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(242, 230, 230, 1) 0%,
+    rgba(242, 236, 235, 1) 69%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 h1 {
   color: #427e7a;
