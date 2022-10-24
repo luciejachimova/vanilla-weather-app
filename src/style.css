@@ -31,9 +31,7 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
-.main-h1 {
-  color: #ddca8f;
-}
+
 .overview {
   margin-bottom: 20px;
 }
