@@ -2,9 +2,9 @@ body {
   font-family: Arial, sans-serif;
 }
 h1 {
-  color: #23489f;
+  color: #427e7a;
   font-size: 34px;
-  margin: 20px 20px 0 0;
+  padding: 5px 0;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
@@ -17,13 +17,16 @@ li {
   list-style-type: none;
   margin: 3px;
   padding: 0;
-  color: rgb(95, 94, 94);
+  color: #427e7a;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
 }
 li:first-letter {
   text-transform: capitalize;
+}
+.main-h1 {
+  color: #ddca8f;
 }
 .overview {
   margin-bottom: 20px;
@@ -34,7 +37,6 @@ li:first-letter {
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
   border-radius: 5px;
 }
 .weather-temperature img {
@@ -43,7 +45,7 @@ li:first-letter {
   width: 74px;
 }
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: #427e7a;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -59,7 +61,7 @@ li:first-letter {
   text-decoration: none;
 }
 .weather-temperature .active {
-  color: #000;
+  color: #427e7a;
   cursor: default;
 }
 .weather-temperature .active:hover {
@@ -68,7 +70,7 @@ li:first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  color: #427e7a;
 }
 .weather-forecast-date {
   font-size: 16px;
@@ -82,22 +84,22 @@ li:first-letter {
 }
 .open-source {
   text-decoration: none;
-  color: #23489f;
+  color: #ddca8f;
 }
-.btn {
-  background: #23489f;
-  border: 1px solid #3577cc;
+.btn-branding {
+  color: #427e7a;
+  background: white;
+  border: 1px solid #427e7a;
 }
-.btn:hover {
-  color: #23489f;
-  background: #ffff;
-  border: 1px solid #3577cc;
+.btn-branding:hover {
+  color: white;
+  background: #427e7a;
 }
 video {
+  margin: 110px auto 0 auto;
   max-width: 600px;
   height: 398px;
   display: block;
-  margin: 30px auto;
   position: absolute;
   right: 0;
   left: 0;
